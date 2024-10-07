@@ -11,10 +11,11 @@ public class R14_SER05_J {
 
         private int rank;
 
-        class InnerSer implements Serializable {
+        static class InnerSer implements Serializable {
 
             protected String name;
             // ...
         }
     }
+
 }
