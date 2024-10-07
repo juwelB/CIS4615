@@ -5,10 +5,10 @@
  */
 public class R09_LCK01_J {
 
-    private final Boolean initialized = Boolean.FALSE;
+    private final Object lock = new Object();
 
     public void doSomething() {
-        synchronized (initialized) {
+        synchronized (lock) {
             // ...
         }
     }
