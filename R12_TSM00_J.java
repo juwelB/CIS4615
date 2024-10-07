@@ -15,7 +15,7 @@ public class R12_TSM00_J {
     class Derived extends Base {
 
         @Override
-        public void doSomething() {
+        public synchronized void doSomething() {
             // ...
         }
     }
